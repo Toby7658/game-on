@@ -1,0 +1,14 @@
+body {
+    font-family: "lato" "sans-serif";
+    font-weight: bold;
+}
+
+#block {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    font-display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
