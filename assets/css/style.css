@@ -1,0 +1,16 @@
+body {
+background-color: antiquewhite;
+
+}
+
+.canvas-area {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
