@@ -8,10 +8,15 @@ var otherTile;
 
 var turns = 0;
 
-window.unload = function() {
-    for (let r = 0; rows; r++ )
+
+window.onload = function() {
+    for (let r = 0; r < rows; r++ ) 
     for (let c = 0; c < columns; c++) {
-        let tile = document.Element("img");
-        tile.src = "./images/white.jpg";
+
+/* set structure for images on tiles */
+        let tile = document.createElement("img");
+        
+
+        document.getElementById("block").append(tile);
     }
 }
